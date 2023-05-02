@@ -39,11 +39,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, rgb(62, 63, 146) , rgb(9, 4, 48));
+  background: linear-gradient(to right, rgb(4, 171, 96) , rgb(1, 69, 28));
   color: white;
   /* text-transform: uppercase; */
   font-size: 1.5em;
   font-weight: bold;
+  font-family: sans-serif;padding: 40px;
+  background: linear-gradient(to right, rgb(4, 171, 96) , rgb(1, 69, 28));
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.wrap .pubcontainer{
+  padding: 40px;
+  background: linear-gradient(to right, rgb(4, 171, 96) , rgb(1, 69, 28));
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+
 }
 
 
@@ -140,6 +156,8 @@ body {
 
 }
 
+
+
 section {
   margin: 50px 0;
 }
@@ -212,10 +230,9 @@ p.lead {
 }
 
 .btn-default {
-    border: none;
-    background-color: #dde2e7;
-    background-image: linear-gradient(#dde2e7,#dde2e7);
-    color: #444;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
 }
 
 #content h3 {
@@ -304,6 +321,10 @@ span.genre {
   font-family: monospace;
   text-transform: uppercase;
 }
+.highlight {
+  color: black;
+  font-weight: bold;
+}
 h1.monospace {
   font-size: 2.5rem;
 }
@@ -352,11 +373,11 @@ h2.monospace {
 .subtitle {
   opacity: 0.5;
 }
-.btn-default {
+/* .btn-default {
   background: #dde2e7;
   background-image: linear-gradient(#dde2e7,#dde2e7);
   color: #444;
-}
+} */
 
 
 #footer {
