@@ -173,7 +173,8 @@ a {
   color: initial;
 }
 p.lead {
-  margin-top: 30px;
+  font-size: 18px;
+  margin-top: 50px;
 }
 ::selection {
   background: #555;
